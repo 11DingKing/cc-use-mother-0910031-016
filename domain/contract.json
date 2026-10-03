@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "product": "学校团体预约受理",
+  "source_context": "当前 GitHub 账号内通过正式容器验证的 Python 后端项目群",
+  "actors": [
+    "活动统筹员",
+    "讲解员",
+    "学校联系人",
+    "场馆管理员"
+  ],
+  "states": [
+    "筹备",
+    "待确认",
+    "已排定",
+    "执行中",
+    "已结算"
+  ],
+  "invariants": [
+    "团体拆分容量",
+    "多方案有限暂占",
+    "候补递补一致性",
+    "租户预约隔离"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "0910031-016-A",
+      "actor": "活动统筹员",
+      "state": "筹备"
+    },
+    {
+      "case_id": "0910031-016-B",
+      "actor": "场馆管理员",
+      "state": "待确认"
+    }
+  ],
+  "tags": [
+    "group-booking",
+    "capacity-reservation"
+  ]
+}

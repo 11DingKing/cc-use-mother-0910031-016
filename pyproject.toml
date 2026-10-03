@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-0910031-016"
+version = "0.1.0"
+description = "学校团体预约受理的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
